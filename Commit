@@ -1,0 +1,33 @@
+package Utilities;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class Drivers {
+        private static WebDriver webDriver;
+
+        public Drivers() {
+
+        }
+
+        private <FirefoxDriver> FirefoxDriver getNewFirefox() {
+            System.setProperty("webdriver.gecko.driver", "C:\\Users\\jaymo\\IdeaProjects\\AutomationProject\\src\\main\\resources\\geckodriver.exe");
+            return new FirefoxDriver();
+
+        }
+        public ChromeDriver getNewChrome() {
+
+            System.setProperty("webdriver.chrome.driver", "C:\\Users\\jaymo\\IdeaProjects\\AutomationProject\\src\\main\\resources\\chromedriver.exe");
+            return new ChromeDriver();
+
+        }
+
+        public void reset() {
+            webDriver = getNewChrome();
+
+        }
+
+
+    }
