@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="20244-04-12T16:38:47 IST" name="Default suite" finished-at="2024-04-12T16:38:53 IST" duration-ms="6070">
+    <groups>
+    </groups>
+    <test started-at="2024-04-12T16:38:47 IST" name="Default test" finished-at="2024-04-12T16:38:53 IST" duration-ms="6070">
+      <class name="com.qa.saucedemo.tests.ConfirmationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.saucedemo.tests.ConfirmationTest@595b007d]" started-at="2024-04-12T16:38:47 IST" name="setup" finished-at="2024-04-12T16:38:51 IST" duration-ms="3883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:1, instance:com.qa.saucedemo.tests.ConfirmationTest@595b007d]" started-at="2024-04-12T16:38:51 IST" name="loginTest" finished-at="2024-04-12T16:38:51 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="verifyItemTotalTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.qa.saucedemo.tests.ConfirmationTest@595b007d]" started-at="2024-04-12T16:38:52 IST" name="verifyItemTotalTest" data-provider="getProductDetails" finished-at="2024-04-12T16:38:53 IST" duration-ms="1195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sauce Labs Bolt T-Shirt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sauce Labs Onesie]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Felicia]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kgwase]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2574]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItemTotalTest -->
+        <test-method signature="verifyOrderConfirmation()[pri:3, instance:com.qa.saucedemo.tests.ConfirmationTest@595b007d]" started-at="2024-04-12T16:38:53 IST" name="verifyOrderConfirmation" finished-at="2024-04-12T16:38:53 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderConfirmation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.saucedemo.tests.ConfirmationTest@595b007d]" started-at="2024-04-12T16:38:53 IST" name="tearDown" finished-at="2024-04-12T16:38:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.saucedemo.tests.ConfirmationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
